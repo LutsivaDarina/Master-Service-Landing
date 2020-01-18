@@ -119,6 +119,10 @@ button,
 .input-border-medium {
   border: 1px solid rgba(31, 32, 65, 0.5);
 }
+.dropdown-input {
+  border: none;
+  font-size: 14px;
+}
 /*лендинг*/
 .header-landing {
   display: flex;
@@ -394,7 +398,7 @@ button,
   background: #fff;
 }
 .arrow-big-input {
-  margin-left: 301px;
+  margin-left: 302px;
   margin-top: -31px;
   background: #fff;
 }
@@ -406,6 +410,10 @@ button,
 .card-number-dropdown {
   top: 1870px;
   margin-left: 140px;
+}
+.card-number-guests {
+  margin-left: 140px;
+  margin-top: -849px;
 }
 /*календарь*/
 .card-form-calendar {
@@ -485,4 +493,115 @@ button,
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+}
+/*карточка с dropdown*/
+.dropdown {
+  position: absolute;
+  margin-top: -650px;
+  margin-left: 170px;
+  background-color: #ffffff;
+}
+.dropdown-expanded-content {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  width: 321px;
+}
+.dropdown-default {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.dropdown-expanded-content {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  width: 321px;
+}
+.dropdown-expanded-content-tovar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 7px;
+  padding-left: 15px;
+}
+.dropdown-expanded-content-tovar-znak {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.dropdown-expanded-content-tovar-znak > p {
+  margin-right: 7px;
+}
+.dropdown-expanded-tovar-p,
+.dropdown-beds-open-tovar-number {
+  font-weight: bolder;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+
+.dropdown-beds-open-tovar-znak-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+
+  font-size: 18px;
+  padding-top: -7px;
+}
+.dropdown-number-not-null {
+  color: rgba(31, 32, 65, 0.5);
+}
+.dropdown-number-null {
+  color: rgba(31, 32, 65, 0.25);
+}
+.dropdown-comand {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 19px;
+  margin-bottom: 13px;
+}
+.dropdown-comand-clean {
+  font-weight: bold;
+  color: rgba(31, 32, 65, 0.5);
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.dropdown-comand-apply {
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #bc9cff;
+  font-weight: bold;
+  padding-right: 7px;
+}
+
+/*убрать границы у инпута в dropdown*/
+.dropdown-input {
+  border: none;
+  font-size: 14px;
+}
+
+.dropdown-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  margin-top: 19px;
+}
+.dropdown-hr {
+  margin-top: 2px;
+}
+/*2 кнопки*/
+.dropdown-buttons-same {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 13px;
+}
+.dropdown-buttons {
+  padding-left: 15px;
+  margin-top: 19px;
 }
