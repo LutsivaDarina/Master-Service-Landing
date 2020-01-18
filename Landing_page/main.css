@@ -1,0 +1,488 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #1f2041;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+/*убрать стандартные отступы*/
+select,
+div,
+p,
+button,
+h1,
+input,
+ul,
+nav {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*курсор на ссылки и кнопки*/
+a,
+button,
+.icon {
+  cursor: pointer;
+}
+/*ширина сайта*/
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+/*ширина контента*/
+.content {
+  width: 1159px;
+  margin: 0 auto;
+}
+/*расстояние между страницами*/
+.landing {
+  margin-bottom: 100px;
+}
+/*шрифты*/
+/*жирный для заголовка*/
+.font-header {
+  font-weight: bold;
+  font-size: 12px;
+  color: #1f2041;
+  text-transform: uppercase;
+  /**/
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+/*жирный для подзаголовка*/
+.font-subtitle-bold {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1f2041;
+}
+/*светлый для заголовка*/
+.font-light-header {
+  font-size: 12px;
+  color: rgba(31, 32, 65, 0.5);
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+/*сиреневый*/
+.fonts-violet {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #bc9cff;
+}
+/*свойства шрифты */
+.font-light {
+  color: rgba(31, 32, 65, 0.25);
+}
+.font-medium {
+  color: rgba(31, 32, 65, 0.5);
+}
+.font-strong {
+  color: rgba(31, 32, 65, 0.75);
+}
+.font-upper {
+  text-transform: uppercase;
+}
+.font-bold {
+  font-weight: bold;
+}
+.cards-header {
+  font-size: 24px;
+  /*margin-bottom: 20px;*/
+}
+/*инпут и селект*/
+.basic-input {
+  background: #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 44px;
+  padding-left: 15px;
+}
+/*размер*/
+.big-input {
+  width: 320px;
+}
+.medium-input {
+  width: 266px;
+}
+.small-input {
+  width: 150px;
+}
+.input-border-light {
+  border: 1px solid rgba(31, 32, 65, 0.25);
+}
+.input-border-medium {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+}
+/*лендинг*/
+.header-landing {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+/*menu*/
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 285.31px;
+}
+.navbar-menu > li {
+  margin-right: 20px;
+}
+.header-button {
+  margin-right: 20px;
+}
+.navbar-a {
+  text-decoration: none;
+}
+/*лендинг-главная часть*/
+.fon-landing {
+  position: relative;
+}
+
+/*шрифты*/
+.navbar-font {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* Dark 50% */
+
+  color: rgba(31, 32, 65, 0.5);
+}
+
+/*buttons*/
+.button-border {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  color: #bc9cff;
+  background-color: white;
+  width: 99px;
+  height: 44px;
+  border-radius: 22px;
+}
+
+.button-color {
+  width: 196px;
+  height: 44px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*большие кнопки в формах */
+.big-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  width: 320px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.button-text {
+  width: 61px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+  background-color: white;
+  border: none;
+  padding: 0;
+  font-weight: bold;
+}
+.button-text-violet {
+  width: 67px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #bc9cff;
+  background-color: white;
+  border: none;
+  margin-right: 20px;
+  padding: 0;
+  font-weight: bold;
+}
+/*карточки*/
+.card1-2-3,
+.card4-5-6 {
+  display: flex;
+}
+/*4 карточки*/
+.card-form-same {
+  position: absolute;
+  height: 374px; /*только для первой*/
+  margin: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.card-form-1245 {
+  width: 380px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+}
+/*карточка подобрать номер*/
+.card-number {
+  top: 140px;
+  margin-left: 187px;
+}
+/*заполнение*/
+/*двойной выбор дат*/
+.card-number-full {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+.number-data-part2 {
+  margin-left: 20px;
+}
+.text-field-default-name {
+  margin-bottom: 5px;
+}
+
+.card-number-guest {
+  margin-top: 105px;
+  margin-bottom: 31px;
+}
+/*надпись на фоне*/
+.landing-fon-p {
+  text-align: right;
+  bottom: 81px;
+  margin-right: 181px;
+  position: relative;
+}
+.landing-fon-dropdown-p {
+  position: absolute;
+  text-align: right;
+  margin-left: 1000px;
+  margin-bottom: -777px;
+}
+/*футер landing-page*/
+.header-footer {
+  background-color: white;
+  margin-top: -5px;
+}
+.footer-content {
+  background-color: white;
+}
+.header-footer-content {
+  padding: 100px 0 90px 0;
+  display: flex;
+}
+.header-footer-content-logo {
+  margin-right: 40px;
+}
+.header-content-p {
+  margin: 20px 0px 20px 0;
+}
+.line-navigation-header {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1f2041;
+  margin-bottom: 21px;
+}
+.ul-line2_p {
+  margin-right: 3px;
+}
+.ul-line2_p > li {
+  margin-bottom: 20px;
+  color: rgba(31, 32, 65, 0.5);
+}
+/*отображение ссылок*/
+.ul-line2_p > li > a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.line-navigation {
+  margin-right: 50px;
+}
+.line-navigation_last {
+  margin-right: 0px;
+}
+.line_input {
+  display: flex;
+  position: relative;
+}
+
+.line_input input {
+  color: rgba(31, 32, 65, 0.25);
+  width: 260px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px 111px 8px 15px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0 23px 0;
+  margin-top: 26px;
+}
+.footer-content-icons {
+  display: flex;
+  margin-right: 52px;
+}
+.icon {
+  margin-left: 20px;
+}
+.line_down {
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+.footer-menu {
+  display: flex;
+}
+
+/*стрелка относительно инпут*/
+.div-arrow {
+  position: relative;
+}
+
+.btn-arrow {
+  position: absolute;
+
+  border: none;
+}
+.arrow-small-input {
+  margin-left: 131px;
+  margin-top: -31px;
+  background: #fff;
+}
+.arrow-medium-input {
+  margin-left: -27px;
+  margin-top: 15px;
+  background: #fff;
+}
+.arrow-big-input {
+  margin-left: 301px;
+  margin-top: -31px;
+  background: #fff;
+}
+.button-arrow {
+  margin-left: 130px;
+  top: 312px;
+}
+/*card-number-dropdown*/
+.card-number-dropdown {
+  top: 1870px;
+  margin-left: 140px;
+}
+/*календарь*/
+.card-form-calendar {
+  width: 320px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  top: 2069px;
+  left: 383px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+}
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+}
+.calendar-content {
+  margin-top: 30px;
+}
+.calendar-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+.calendar-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.calendar-number {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  left: -8px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1;
+  /*border: 1px solid pink;*/
+}
+.calendar-one-number {
+  left: 6px;
+}
+.calendar-finish-number {
+  left: 10px;
+}
+.calendar-center-number {
+  left: 1px;
+}
+.calendar-24 {
+  left: 192px;
+}
+/*цветные даты*/
+.block-green {
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border-radius: 22px;
+}
+.block-violet {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  z-index: 10;
+}
+
+.number-active {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+.oval {
+  border-radius: 120px;
+  background-color: rgb(234, 231, 255);
+  color: rgba(31, 32, 65, 0.5);
+  display: flex;
+  width: 186px;
+  position: absolute;
+}
+.calendar-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

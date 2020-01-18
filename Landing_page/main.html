@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing_page</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="landing">
+      <div class="content">
+        <!--header-->
+        <div class="header-landing">
+          <div class="logo">
+            <img src="img/logo.svg" />
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-menu">
+              <li><a href="#" class="navbar-a navbar-font">О нас</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Услуги</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+              <li><a href="#" class="navbar-a navbar-font">Вакансии</a></li>
+              <li><a href="#" class="navbar-a navbar-font">Новости</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Соглашения</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+            </ul>
+          </nav>
+          <div class="navbar-buttons">
+            <button class="button-border header-button">Войти</button>
+            <button class="button-color">Зарегистрироваться</button>
+          </div>
+        </div>
+      </div>
+      <!--главная часть-->
+      <img src="img/fon.svg" class="fon-landing" />
+      <!--карточка подобрать номер-->
+      <section class="card-form-same card-form-1245 card-number">
+        <h1 class="cards-header">Найдём номера под ваши пожелания</h1>
+        <div class="card-number-full">
+          <div class="card-number-data">
+            <div class="text-field-default-name">
+              <p class="font-header">прибытие</p>
+            </div>
+            <select
+              name="data"
+              class="basic-input small-input input-border-light font-upper font-strong input-card-number"
+            >
+              <option value="light">дд.мм.гггг</option>
+              <option value="dark"></option>
+            </select>
+            <form class="div-arrow">
+                <div class="arrow-small-input btn-arrow">
+                  <img src="img/arrow-down.svg">
+          </div>
+          </form>
+        </div>
+        <!--вторая часть даты-->
+        <div class="card-number-data number-data-part2">
+          <div class="text-field-default-name">
+            <p class="font-header">выезд</p>
+          </div>
+          <select
+            name="data"
+            class="basic-input small-input input-border-light font-upper font-strong input-card-number"
+          >
+            <option value="light">дд.мм.гггг</option>
+            <option value="dark"></option>
+          </select>
+          <form class="div-arrow">
+              <div class="arrow-small-input btn-arrow">
+                <img src="img/arrow-down.svg">
+        </div>
+      </div>
+    </div>
+      <div class="card-number-guest">
+        <p class="font-header">гости</p>
+        <select
+        name="guests"
+        class="basic-input big-input input-border-light  font-strong input-card-number"
+      >
+        <option value="light" class="">Сколько гостей</option>
+        <option value="dark"></option>
+        ...
+      </select>
+      <form class="div-arrow">
+        <div class="arrow-big-input btn-arrow">
+          <img src="img/arrow-down.svg">
+  </div>
+  </form>
+      </div>
+      <button class="big-button">
+        <p class=button-text-p>подобрать номер</p>
+        <div class="btn-arrow div-arrow button-arrow">
+          <img src="img/arrow-right.svg">
+  </div>
+        </button>
+      </section>
+      <p class="landing-fon-p">Лучшие номера для вашей работы,<br> отдыха и просто вдохновения</p>
+  <!--футер-->
+      <section class="footer-content">
+     <div class="content">
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <div class="header-footer-content-logo">
+            <div class="logo">
+             <img src="img/logo.svg">
+            </div>
+            <p class="header-content-p">
+              Бронирование номеров в лучшем <br> отеле 2019 года по версии <br>ассоциации «Отельные взгляды»
+            </p>
+          </div>
+          <div class="footer-menu">
+            <div class="line-navigation">
+              <p class="line-navigation-header">Навигация</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Служба поддержки</a></li>
+                <li><a href="#">Услуги</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">О нас</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">О сервисе</a></li>
+                <li><a href="#">Наша команда</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Инвесторы</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">Служба поддержки</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Соглашения</a></li>
+                <li><a href="#">Сообщества</a></li>
+                <li><a href="#">Связь с нами</a></li>
+              </ul>
+            </div>
+            <!------------------>
+            <div class="line-navigation-last">
+              <p class="line-navigation-header">Подписка</p>
+              <p class="header-content-p">
+                Получайте специальные<br> предложения и новости сервиса
+              </p>
+              <form class="line_input">
+                <input type="text" name="fname" value="Email" />
+                <span class="input-group-btn">
+                    <div class="div-arrow btn-arrow arrow-medium-input">
+                      <img src="img/arrow-right-violet.svg">
+              </div>
+                </span>
+              </form>
+            </div>
+            <!--------------------->
+        </div>
+        </div>
+      </div>
+      <hr class="line_down" />
+      <div class="footer-content">
+        <div class="footer-content-p">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+        <div class="footer-content-icons">
+          <div class="icon">
+            <img src="img/twitter.svg">
+          </div>
+          <div class="icon">
+            <img src="img/facebook.svg">
+          </div>
+          <div class="icon">
+            <img src="img/instagram.svg">
+          </div>
+        </div>
+      </div>
+     </div>
+   </section>
+    </div>
+    <!-------------landing-dropdown----------------->
+    <div class="landing">
+      <div class="content">
+        <!--header-->
+        <div class="header-landing">
+          <div class="logo">
+            <img src="img/logo.svg" />
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-menu">
+              <li><a href="#" class="navbar-a navbar-font">О нас</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Услуги</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+              <li><a href="#" class="navbar-a navbar-font">Вакансии</a></li>
+              <li><a href="#" class="navbar-a navbar-font">Новости</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Соглашения</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+            </ul>
+          </nav>
+          <div class="navbar-buttons">
+            <button class="button-border header-button">Войти</button>
+            <button class="button-color">Зарегистрироваться</button>
+          </div>
+        </div>
+      </div>
+      <!--главная часть-->
+      <img src="img/fon.svg" class="fon-landing" />
+      <!--карточка подобрать номер-->
+      <section class="card-form-same card-form-1245 card-number-dropdown">
+        <h1 class="cards-header">Найдём номера под ваши пожелания</h1>
+        <div class="card-number-full">
+          <div class="card-number-data">
+            <div class="text-field-default-name">
+              <p class="font-header">прибытие</p>
+            </div>
+            <select
+              name="data"
+              class="basic-input small-input input-border-light font-upper font-strong input-card-number"
+            >
+              <option value="light">дд.мм.гггг</option>
+              <option value="dark"></option>
+            </select>
+            <form class="div-arrow">
+                <div class="arrow-small-input btn-arrow">
+                  <img src="img/arrow-down.svg">
+          </div>
+          </form>
+        </div>
+        <!--вторая часть даты-->
+        <div class="card-number-data number-data-part2">
+          <div class="text-field-default-name">
+            <p class="font-header">выезд</p>
+          </div>
+          <select
+            name="data"
+            class="basic-input small-input input-border-light font-upper font-strong input-card-number"
+          >
+            <option value="light">дд.мм.гггг</option>
+            <option value="dark"></option>
+          </select>
+          <form class="div-arrow">
+              <div class="arrow-small-input btn-arrow">
+                <img src="img/arrow-down.svg">
+        </div>
+      </div>
+    </div>
+      <div class="card-number-guest">
+        <p class="font-header">гости</p>
+        <select
+        name="guests"
+        class="basic-input big-input input-border-light  font-strong input-card-number"
+      >
+        <option value="light" class="">Сколько гостей</option>
+        <option value="dark"></option>
+        ...
+      </select>
+      <form class="div-arrow">
+        <div class="arrow-big-input btn-arrow">
+          <img src="img/arrow-down.svg">
+  </div>
+  </form>
+      </div>
+      <button class="big-button">
+        <p class=button-text-p>подобрать номер</p>
+        <div class="btn-arrow div-arrow button-arrow">
+          <img src="img/arrow-right.svg">
+  </div>
+        </button>
+      </section>
+      <!--calendar-->
+      <section class="card-form-calendar card-form-same card3">
+        <div class="calendar-header">
+          <img src="img/arrow-left-violet.svg">
+          <p class="text-header font-subtitle-bold">Август 2019</p>
+          <img src="img/arrow-right-violet.svg">
+        </div>
+        <div class="calendar-content">
+          <div class="calendar-content-header fonts-violet">
+                    <p>Пн</p>
+                    <p>Вт</p>
+                    <p>Ср</p>
+                    <p>Чт</p>
+                    <p>Пт</p>
+                    <p>Сб</p>
+                    <p>Вс</p>
+          </div>
+          <div class="calendar-item font-medium ">
+            <p class="calendar-number  font-light">29</p>
+            <p class="calendar-number  font-light">30</p>
+            <p class="calendar-number calendar-center-number font-light">31</p>
+            <p class="calendar-number calendar-one-number">1</p>
+            <p class="calendar-number calendar-one-number">2</p>
+            <p class="calendar-number calendar-one-number">3</p>
+            <p class="calendar-number calendar-finish-number">4</p>
+        </div>
+
+        <div class="calendar-item font-medium ">
+          <p class="calendar-number ">5</p>
+          <p class="calendar-number ">6</p>
+          <p class="calendar-number calendar-center-number ">7</p>
+          <p class="calendar-number calendar-one-number block-green number-active">8</p>
+          <p class="calendar-number calendar-one-number">9</p>
+          <p class="calendar-number calendar-one-number">10</p>
+          <p class="calendar-number calendar-finish-number">11</p>
+      </div>
+       
+
+      <div class="calendar-item font-medium ">
+        <p class="calendar-number ">12</p>
+        <p class="calendar-number ">13</p>
+        <p class="calendar-number calendar-center-number">14</p>
+        <p class="calendar-number calendar-one-number">15</p>
+        <p class="calendar-number calendar-one-number">16</p>
+        <p class="calendar-number calendar-one-number">17</p>
+        <p class="calendar-number calendar-finish-number">18</p>
+        
+</div>
+
+<div class="calendar-item font-medium ">
+  <div class="block-page-line-active oval font-strong ">
+  <p class="calendar-number block-violet number-active">19</p>
+  <p class="calendar-number ">20</p>
+  <p class="calendar-number calendar-center-number ">21</p>
+  <p class="calendar-number calendar-one-number">22</p>
+  <p class="calendar-number calendar-one-number block-violet number-active">23</p>
+  </div>
+  <p class="calendar-number calendar-one-number calendar-24 ">24</p>
+  <p class="calendar-number calendar-finish-number">25</p>
+  
+</div>
+<div class="calendar-item font-medium ">
+  <p class="calendar-number ">26</p>
+  <p class="calendar-number ">27</p>
+  <p class="calendar-number calendar-center-number ">28</p>
+  <p class="calendar-number calendar-one-number">29</p>
+  <p class="calendar-number calendar-one-number">30</p>
+  <p class="calendar-number calendar-one-number">31</p>
+  <p class="calendar-number calendar-finish-number font-light">1</p>
+</div>
+
+<div class="calendar-buttons">
+  <button class="button-text">отменить</button>
+  <button class="button-text-violet">применить</button>
+</div>
+        </div>
+        </section>
+      <p class="landing-fon-p">Лучшие номера для вашей работы,<br> отдыха и просто вдохновения</p>
+  <!--футер-->
+      <section class="footer-content">
+     <div class="content">
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <div class="header-footer-content-logo">
+            <div class="logo">
+             <img src="img/logo.svg">
+            </div>
+            <p class="header-content-p">
+              Бронирование номеров в лучшем <br> отеле 2019 года по версии <br>ассоциации «Отельные взгляды»
+            </p>
+          </div>
+          <div class="footer-menu">
+            <div class="line-navigation">
+              <p class="line-navigation-header">Навигация</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Служба поддержки</a></li>
+                <li><a href="#">Услуги</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">О нас</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">О сервисе</a></li>
+                <li><a href="#">Наша команда</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Инвесторы</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">Служба поддержки</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Соглашения</a></li>
+                <li><a href="#">Сообщества</a></li>
+                <li><a href="#">Связь с нами</a></li>
+              </ul>
+            </div>
+            <!------------------>
+            <div class="line-navigation-last">
+              <p class="line-navigation-header">Подписка</p>
+              <p class="header-content-p">
+                Получайте специальные<br> предложения и новости сервиса
+              </p>
+              <form class="line_input">
+                <input type="text" name="fname" value="Email" />
+                <span class="input-group-btn">
+                    <div class="div-arrow btn-arrow arrow-medium-input">
+                      <img src="img/arrow-right-violet.svg">
+              </div>
+                </span>
+              </form>
+            </div>
+            <!--------------------->
+        </div>
+        </div>
+      </div>
+      <hr class="line_down" />
+      <div class="footer-content">
+        <div class="footer-content-p">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+        <div class="footer-content-icons">
+          <div class="icon">
+            <img src="img/twitter.svg">
+          </div>
+          <div class="icon">
+            <img src="img/facebook.svg">
+          </div>
+          <div class="icon">
+            <img src="img/instagram.svg">
+          </div>
+        </div>
+      </div>
+     </div>
+   </section>
+    </div>
+    <!--конец контейнера -->
+      </div>
+    
+  </body>
+</html>
