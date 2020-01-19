@@ -49,7 +49,6 @@ button,
   font-size: 12px;
   color: #1f2041;
   text-transform: uppercase;
-  /**/
   margin-top: 20px;
   margin-bottom: 5px;
 }
@@ -94,6 +93,9 @@ button,
 .cards-header {
   font-size: 24px;
   /*margin-bottom: 20px;*/
+}
+.font-small {
+  font-size: 12px;
 }
 /*инпут и селект*/
 .basic-input {
@@ -406,6 +408,16 @@ button,
   margin-left: 130px;
   top: 312px;
 }
+.arrow-input-down {
+  margin-top: -30px;
+  margin-left: 240px;
+  background: #fff;
+}
+.arrow-filter-guest {
+  margin-top: -30px;
+  margin-left: 247px;
+  background: #fff;
+}
 /*card-number-dropdown*/
 .card-number-dropdown {
   top: 1870px;
@@ -604,4 +616,153 @@ button,
 .dropdown-buttons {
   padding-left: 15px;
   margin-top: 19px;
+}
+/*Landing search room*/
+.rooms-filter {
+  display: flex;
+}
+.filter {
+  width: 266px;
+
+  margin-right: 60px;
+}
+.rooms {
+  width: 870px;
+}
+/*дата пребывания в отеле*/
+/*расстояние между фильтрами*/
+.text-field {
+  margin-bottom: 20px;
+}
+.filter-range {
+  margin-top: 30px;
+}
+/**/
+.text-field-default-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+/*диапазон цены*/
+.range-slider {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.range-slider-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 266px;
+  height: 6px;
+  background: #ffffff;
+
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.rectangle {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 88px;
+  height: 6px;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border-radius: 3px;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.circle1 {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: -50px;
+  z-index: 5;
+}
+.circle2 {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 45px;
+  z-index: 8;
+}
+/*chekboks*/
+/*для чекбокса с галочкой*/
+[id^="c"] {
+  display: none;
+}
+[id^="c"] + label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+[id^="c"] + label:hover {
+  border: 1px solid #bc9cff;
+}
+[id^="c"]:checked + label span {
+  position: relative;
+  display: inline-block;
+  margin-left: -3px;
+  margin-bottom: 6px;
+}
+[id^="c"]:checked + label span:before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  width: 10px;
+  height: 3px;
+  margin-bottom: 4px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+[id^="c"]:checked + label span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 10px;
+  height: 3px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  -webkit-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+}
+.checkbox-variant2,
+.chekbox-new {
+  display: flex;
+  margin-bottom: 5px;
+}
+.chekbox-new-p {
+  margin-left: 15px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.checkbox-variant2 {
+  margin-bottom: 11px;
+}
+/*-доступность*/
+.avaliable-header {
+  margin-bottom: 16px;
+}
+.avaliable-chekbox-header {
+  margin-left: 10px;
+}
+.avaliable-chekbox-p {
+  margin-left: 30px;
+  margin-bottom: 11px;
+  font-size: 12px;
+}
+/*удобства номера*/
+.comfortable {
+  margin-bottom: 30px;
+}
+/*дополнительные удобства*/
+.arrow-filter-additional {
+  top: 8px;
 }
