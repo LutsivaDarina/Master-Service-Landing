@@ -623,7 +623,6 @@ button,
 }
 .filter {
   width: 266px;
-
   margin-right: 60px;
 }
 .rooms {
@@ -765,4 +764,119 @@ button,
 /*дополнительные удобства*/
 .arrow-filter-additional {
   top: 8px;
+}
+/***************rooms***************************/
+.rooms-header {
+  margin-top: 30px;
+  font-size: 24px;
+  margin-bottom: 21px;
+}
+.rooms-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+/*карточка*/
+.room-card {
+  width: 270px;
+  height: 257px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+.room-card > img {
+  position: relative;
+}
+.rooms-img-arrows {
+  position: absolute;
+  display: flex;
+  padding: 13px;
+  margin-top: -90px;
+  margin-left: 10px;
+}
+.rooms-img-arrow-right {
+  margin-left: 200px;
+}
+/*point*/
+.rooms-point {
+  display: flex;
+  position: absolute;
+  padding-right: 15px;
+  margin-top: -25px;
+  margin-left: 192px;
+}
+.point {
+  width: 7.5px;
+  height: 7.49px;
+  box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 3.75px;
+}
+.rooms-point-active {
+  background: #ffffff;
+}
+.rooms-point-not-active {
+  border: 1px solid #ffffff;
+}
+/*цена комнаты*/
+.room-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 10px 20px;
+}
+.room-price-number {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1f2041;
+}
+.room-price-category {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #bc9cff;
+  margin-left: 5px;
+}
+
+.room-font-bold {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.room-font-bold > span {
+  font-weight: bold;
+}
+/*линия в карточке*/
+.room-line {
+  width: 230px;
+  height: 1px;
+  background: rgba(31, 32, 65, 0.1);
+  border: none;
+}
+.room-feedback {
+  margin-top: 3px;
+}
+/*звезды-отзывы*/
+.room-stars-feedback {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+/*страницы*/
+.pages {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pages-text {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-bottom: 70px;
 }
