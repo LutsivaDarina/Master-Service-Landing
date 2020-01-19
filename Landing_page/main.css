@@ -415,7 +415,7 @@ button,
 }
 .arrow-filter-guest {
   margin-top: -30px;
-  margin-left: 247px;
+  margin-left: 248px;
   background: #fff;
 }
 /*card-number-dropdown*/
@@ -515,6 +515,7 @@ button,
 }
 .dropdown-expanded-content {
   border: 1px solid rgba(31, 32, 65, 0.5);
+  border-radius: 5px;
   width: 321px;
 }
 .dropdown-default {
@@ -687,7 +688,7 @@ button,
   margin-left: 45px;
   z-index: 8;
 }
-/*chekboks*/
+/*checkboks*/
 /*для чекбокса с галочкой*/
 [id^="c"] {
   display: none;
@@ -733,12 +734,12 @@ button,
   -webkit-transform: rotate(-50deg);
   transform: rotate(-50deg);
 }
-.checkbox-variant2,
-.chekbox-new {
+
+.checkbox-new {
   display: flex;
   margin-bottom: 5px;
 }
-.chekbox-new-p {
+.checkbox-new-p {
   margin-left: 15px;
   color: rgba(31, 32, 65, 0.5);
 }
@@ -749,10 +750,10 @@ button,
 .avaliable-header {
   margin-bottom: 16px;
 }
-.avaliable-chekbox-header {
+.avaliable-checkbox-header {
   margin-left: 10px;
 }
-.avaliable-chekbox-p {
+.avaliable-checkbox-p {
   margin-left: 30px;
   margin-bottom: 11px;
   font-size: 12px;
@@ -879,4 +880,17 @@ button,
   margin-top: 10px;
   margin-left: 12px;
   margin-bottom: 70px;
+}
+/*2 страница фильтров (дополнения)*/
+.dropdown-filter-content {
+  width: 266px;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  border-radius: 5px;
+}
+/*3 страница фильтров(дополнения)*/
+.filter-additional-header {
+  margin-bottom: 17px;
+}
+.chekbox-variant2 {
+  margin-bottom: 10px;
 }

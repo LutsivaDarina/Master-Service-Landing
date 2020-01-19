@@ -679,7 +679,7 @@
      </div>
    </section>
     </div>
-    <!--Landing search room-->
+    <!-------------Landing search room-------------------->
     <div class="landing">
       <div class="content">
         <!--header-->
@@ -772,7 +772,7 @@
             </div>
             <p class="font-medium font-small">Стоимость за сутки пребывания в номере</p>
       </div>
-         <!--chekboks-->
+         <!--checkboks-->
          <div class="text-field">
           <div class="text-field-default-name">
             <p class="font-header">
@@ -781,33 +781,33 @@
           </div>
 
           <div class="checkbox-ul input-field-medium">
-            <div class=chekbox-variant2>
-              <label class="chekbox-new ">
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
                <!----> 
                <input type="checkbox" name="c1" id="c11" />
                 <label for="c11"><span></span>
                 </label>
-                <p class="chekbox-new-p">Можно курить</p>
+                <p class="checkbox-new-p">Можно курить</p>
               </label>
             </div>
 
-            <div class=chekbox-variant2>
-              <label class="chekbox-new ">
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
                <!----> 
                <input type="checkbox" name="c1" id="c12" />
                 <label for="c12"><span></span>
                 </label>
-                <p class="chekbox-new-p">Можно с питомцами</p>
+                <p class="checkbox-new-p">Можно с питомцами</p>
               </label>
             </div>
 
-            <div class=chekbox-variant2>
-              <label class="chekbox-new ">
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
                <!----> 
                <input type="checkbox" name="c1" id="c13" class="checkbox-new-input"/>
                 <label for="c13"><span></span>
                 </label>
-                <p class="chekbox-new-p">Можно пригласить гостей<br> (до 10 человек)</p>
+                <p class="checkbox-new-p">Можно пригласить гостей<br> (до 10 человек)</p>
               </label>
             </div>
 
@@ -816,26 +816,26 @@
         <!---------доступность---->
         <div class="avaliable">
           <p class="font-header avaliable-header">Доступность</p>
-          <div class=chekbox-variant2>
-            <label class="chekbox-new ">
+          <div class=checkbox-variant2>
+            <label class="checkbox-new ">
              <!----> 
              <input type="checkbox" name="c1" id="c1" class="checkbox-new-input"/>
               <label for="c1"><span></span>
               </label>
-              <p class="font-strong font-bold avaliable-chekbox-header" >Широкий коридор</p>
+              <p class="font-strong font-bold avaliable-checkbox-header" >Широкий коридор</p>
             </label>
-            <p class="avaliable-chekbox-p font-medium">Ширина коридоров в номере<br> не менее 91 см.</p>
+            <p class="avaliable-checkbox-p font-medium">Ширина коридоров в номере<br> не менее 91 см.</p>
           </div>
 
-          <div class=chekbox-variant2>
-            <label class="chekbox-new ">
+          <div class=checkbox-variant2>
+            <label class="checkbox-new ">
              <!----> 
              <input type="checkbox" name="c1" id="c2" class="checkbox-new-input"/>
               <label for="c2"><span></span>
               </label>
-              <p class="font-strong font-bold avaliable-chekbox-header" >Помощник для инвалидов</p>
+              <p class="font-strong font-bold avaliable-checkbox-header" >Помощник для инвалидов</p>
             </label>
-            <p class="avaliable-chekbox-p font-medium">На 1 этаже вас встретит специалист<br>и проводит до номера.</p>
+            <p class="avaliable-checkbox-p font-medium">На 1 этаже вас встретит специалист<br>и проводит до номера.</p>
           </div>
         </div>
         <!---удобства номера-->
@@ -1327,6 +1327,1432 @@
      </div>
    </section>
     </div>
+    <!-------------Landing search room (filter2)---------->
+    <div class="landing">
+      <div class="content">
+        <!--header-->
+        <div class="header-landing">
+          <div class="logo">
+            <img src="img/logo.svg" />
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-menu">
+              <li><a href="#" class="navbar-a navbar-font">О нас</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Услуги</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+              <li><a href="#" class="navbar-a navbar-font">Вакансии</a></li>
+              <li><a href="#" class="navbar-a navbar-font">Новости</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Соглашения</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+            </ul>
+          </nav>
+          <div class="navbar-buttons">
+            <button class="button-border header-button">Войти</button>
+            <button class="button-color">Зарегистрироваться</button>
+          </div>
+        </div>
+      </div>
+      <!--главная часть-->
+      <!--карточка подобрать номер-->
+      <div class="content">
+        <div class="rooms-filter">
+          <div class="filter">
+            <!--дата пребывания в отеле-->
+            <div class="text-field ">
+              <div class="text-field-default-name">
+                <p class="font-header">
+                  filter date dropdown
+                </p>
+              </div>
+              <input
+                type="text"
+                id="start"
+                name="start"
+                value="19 авг - 23 авг"
+                class="basic-input medium-input input-border-light font-strong"
+              />
+              <form>
+                <span class="div-arrow btn-arrow arrow-filter-guest">
+                  <img src="img/arrow-down.svg">
+                </span>
+              </form>
+            </div>
+            <!---->
+            <!--фильтр по количеству гостей-->
+            <div class="filter-guest">
+              <p class="font-header">гости</p>
+              <select
+              name="guests"
+              class="basic-input medium-input input-border-light  font-strong input-card-number"
+            >
+              <option value="light" class="">3 гостя, 1 младенец</option>
+              <option value="dark"></option>
+              ...
+            </select>
+            <form class="div-arrow">
+              <div class="arrow-filter-guest btn-arrow div-arrow">
+                <img src="img/arrow-down.svg">
+        </div>
+        </form>
+            </div>
+            <!------>
+            <!----диапазон цены-->
+            
+            <div class="filter-range">
+              <div class="text-field-default">
+                <div class="text-field-default-name">
+                  <p class="font-header">Диапазон цены</p>
+                  <p class="font-light-header">5 000₽ - 10 000₽</p>
+                </div>
+                <div class="range-slider">
+                  <div class="range-slider-content">
+                      <div class="circle1 circle"></div>
+                      <div class="rectangle">
+                      </div>
+                      <div class="circle2 circle"></div>
+                </div>
+                <!--прописать код-->
+              </div>
+            </div>
+            <p class="font-medium font-small">Стоимость за сутки пребывания в номере</p>
+      </div>
+         <!--chekboks-->
+         <div class="text-field">
+          <div class="text-field-default-name">
+            <p class="font-header">
+              checkbox buttons
+            </p>
+          </div>
+
+          <div class="checkbox-ul input-field-medium">
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
+               <!----> 
+               <input type="checkbox" name="c1" id="c21" />
+                <label for="c21"><span></span>
+                </label>
+                <p class="checkbox-new-p">Можно курить</p>
+              </label>
+            </div>
+
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
+               <!----> 
+               <input type="checkbox" name="c1" id="c22" />
+                <label for="c22"><span></span>
+                </label>
+                <p class="checkbox-new-p">Можно с питомцами</p>
+              </label>
+            </div>
+
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
+               <!----> 
+               <input type="checkbox" name="c1" id="c23" class="checkbox-new-input"/>
+                <label for="c23"><span></span>
+                </label>
+                <p class="checkbox-new-p">Можно пригласить гостей<br> (до 10 человек)</p>
+              </label>
+            </div>
+
+          </div>
+        </div>
+        <!---------доступность---->
+        <div class="avaliable">
+          <p class="font-header avaliable-header">Доступность</p>
+          <div class=checkbox-variant2>
+            <label class="checkbox-new ">
+             <!----> 
+             <input type="checkbox" name="c1" id="c24" class="checkbox-new-input"/>
+              <label for="c24"><span></span>
+              </label>
+              <p class="font-strong font-bold avaliable-checkbox-header" >Широкий коридор</p>
+            </label>
+            <p class="avaliable-checkbox-p font-medium">Ширина коридоров в номере<br> не менее 91 см.</p>
+          </div>
+
+          <div class=checkbox-variant2>
+            <label class="checkbox-new ">
+             <!----> 
+             <input type="checkbox" name="c1" id="c25" class="checkbox-new-input"/>
+              <label for="c25"><span></span>
+              </label>
+              <p class="font-strong font-bold avaliable-checkbox-header" >Помощник для инвалидов</p>
+            </label>
+            <p class="avaliable-checkbox-p font-medium">На 1 этаже вас встретит специалист<br>и проводит до номера.</p>
+          </div>
+        </div>
+        <!---удобства номера-->
+        <div class="comfortable">
+          <p class="font-header">Удобства номера</p>
+          <section class="dropdown-filter">
+            <div class="dropdown-filter-content ">
+              <select name="string" class="basic-input input-border-light medium-input font-strong dropdown-input">
+                  <option value="quantity">2 спальни, 2 кровати...</option>
+                </select>
+                <form>
+                  <span class="input-group-btn">
+                      <div class="btn-arrow div-arrow arrow-filter-guest">
+                        <img src="img/arrow-down.svg">
+                      </div>
+                    </span> 
+                </form>
+                
+            <hr class="dropdown-hr">
+            <div class="dropdown-expanded-content-tovar">
+              <p class="dropdown-expanded-tovar-p">
+             спальни
+                </p>
+                <div class="dropdown-expanded-content-tovar-znak">
+                  <p class="dropdown-beds-open-tovar-znak-content  ">
+                    -
+                    </p>
+                    <p class="dropdown-beds-open-tovar-number ">
+                    2
+                    </p>
+                    <p class="dropdown-beds-open-tovar-znak-content ">
+                    +
+                    </p> 
+                </div>
+            </div>
+            <!---->
+            <div class="dropdown-expanded-content-tovar">
+              <p class="dropdown-expanded-tovar-p">
+                кровати
+                </p>
+                <div class="dropdown-expanded-content-tovar-znak">
+                  <p class="dropdown-beds-open-tovar-znak-content  ">
+                    -
+                    </p>
+                    <p class="dropdown-beds-open-tovar-number">
+                    2
+                    </p>
+                    <p class="dropdown-beds-open-tovar-znak-content">
+                    +
+                    </p> 
+                </div>
+            </div>
+            <!---->
+            <div class="dropdown-expanded-content-tovar">
+              <p class="dropdown-expanded-tovar-p">
+                ванные комнаты
+                </p>
+                <div class="dropdown-expanded-content-tovar-znak">
+                  <p class="dropdown-beds-open-tovar-znak-content dropdown-number-null">
+                    -
+                    </p>
+                    <p class="dropdown-beds-open-tovar-number">
+                    0
+                    </p>
+                    <p class="dropdown-beds-open-tovar-znak-content">
+                    +
+                    </p> 
+                </div>
+            </div>
+            
+            </div>
+          </section>
+        </div>
+        <!---дополнительные удобства-->
+      
+            <!----------->
+          </div>
+          <div class="rooms">
+            <h1 class="rooms-header">Номера, которые мы для вас подобрали</h1>
+            <!--карточки первый ряд-->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room1-1.svg" alt="room">
+               <div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 888</span><span class="room-price-category">люкс</span></p>
+                 <p class="room-font-bold"><span>9 990₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>145</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room2.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 840</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>9 990₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>65</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room3.svg" alt="room">
+               <!--- <div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 980</span><span class="room-price-category">люкс</span></p>
+                  <p class="room-font-bold"><span>8 500₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>35</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!--карточки второй ряд --->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room4.svg" alt="room">
+               <!--<div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>-->
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 856</span><span class="room-price-category"></span></p>
+                 <p class="room-font-bold"><span>7 300₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>19</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room5.svg" alt="room">
+               <!---<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 740</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>6 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>44</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room6.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 982</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 800₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>56</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!---карточки третий ряд--->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room7.svg" alt="room">
+               <!--<div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>-->
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 678</span><span class="room-price-category"></span></p>
+                 <p class="room-font-bold"><span>5 500₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>45</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room8.svg" alt="room">
+               <!---<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 450</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 300₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>39</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room9.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 350</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>77</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!--карточки четвертый ряд---------->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room10.svg" alt="room">
+               <!--<div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>-->
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 666</span><span class="room-price-category"></span></p>
+                 <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>25</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room11.svg" alt="room">
+               <!---<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 444</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>15</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room12.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 352</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>55</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!--страницы-->
+            <div class="pages">
+              <p class="calendar-number calendar-one-number block-violet number-active">1</p>
+              <p class="calendar-number calendar-one-number font-medium">2</p>
+              <p class="calendar-number calendar-one-number font-medium">3</p>
+              <p class="calendar-number calendar-one-number font-medium">...</p>
+              <p class="calendar-number calendar-one-number font-medium">15</p>
+              <p class="calendar-number calendar-one-number block-green number-active"><img src="img/arrow-right.svg"</p>
+            </div>
+            <!-------->
+            <p class="pages-text font-strong">1 – 12 из 100+ вариантов аренды</p>
+          </div>
+      </div>
+      </div>
+  <!--футер-->
+  
+      <section class="footer-content">
+     <div class="content">
+      <hr class="line_down">
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <div class="header-footer-content-logo">
+            <div class="logo">
+             <img src="img/logo.svg">
+            </div>
+            <p class="header-content-p">
+              Бронирование номеров в лучшем <br> отеле 2019 года по версии <br>ассоциации «Отельные взгляды»
+            </p>
+          </div>
+          <div class="footer-menu">
+            <div class="line-navigation">
+              <p class="line-navigation-header">Навигация</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Служба поддержки</a></li>
+                <li><a href="#">Услуги</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">О нас</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">О сервисе</a></li>
+                <li><a href="#">Наша команда</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Инвесторы</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">Служба поддержки</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Соглашения</a></li>
+                <li><a href="#">Сообщества</a></li>
+                <li><a href="#">Связь с нами</a></li>
+              </ul>
+            </div>
+            <!------------------>
+            <div class="line-navigation-last">
+              <p class="line-navigation-header">Подписка</p>
+              <p class="header-content-p">
+                Получайте специальные<br> предложения и новости сервиса
+              </p>
+              <form class="line_input">
+                <input type="text" name="fname" value="Email" />
+                <span class="input-group-btn">
+                    <div class="div-arrow btn-arrow arrow-medium-input">
+                      <img src="img/arrow-right-violet.svg">
+              </div>
+                </span>
+              </form>
+            </div>
+            <!--------------------->
+        </div>
+        </div>
+      </div>
+      <hr class="line_down" />
+      <div class="footer-content">
+        <div class="footer-content-p">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+        <div class="footer-content-icons">
+          <div class="icon">
+            <img src="img/twitter.svg">
+          </div>
+          <div class="icon">
+            <img src="img/facebook.svg">
+          </div>
+          <div class="icon">
+            <img src="img/instagram.svg">
+          </div>
+        </div>
+      </div>
+     </div>
+   </section>
+    </div>
+    <!--------------Landing search room (filter3)--------->
+    <div class="landing">
+      <div class="content">
+        <!--header-->
+        <div class="header-landing">
+          <div class="logo">
+            <img src="img/logo.svg" />
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-menu">
+              <li><a href="#" class="navbar-a navbar-font">О нас</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Услуги</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+              <li><a href="#" class="navbar-a navbar-font">Вакансии</a></li>
+              <li><a href="#" class="navbar-a navbar-font">Новости</a></li>
+              <li>
+                <a href="#" class="navbar-a navbar-font">Соглашения</a>
+                <img src="img/arrow-down.svg" />
+              </li>
+            </ul>
+          </nav>
+          <div class="navbar-buttons">
+            <button class="button-border header-button">Войти</button>
+            <button class="button-color">Зарегистрироваться</button>
+          </div>
+        </div>
+      </div>
+      <!--главная часть-->
+      <!--карточка подобрать номер-->
+      <div class="content">
+        <div class="rooms-filter">
+          <div class="filter">
+            <!--дата пребывания в отеле-->
+            <div class="text-field ">
+              <div class="text-field-default-name">
+                <p class="font-header">
+                  filter date dropdown
+                </p>
+              </div>
+              <input
+                type="text"
+                id="start"
+                name="start"
+                value="19 авг - 23 авг"
+                class="basic-input medium-input input-border-light font-strong"
+              />
+              <form>
+                <span class="div-arrow btn-arrow arrow-filter-guest">
+                  <img src="img/arrow-down.svg">
+                </span>
+              </form>
+            </div>
+            <!---->
+            <!--фильтр по количеству гостей-->
+            <div class="filter-guest">
+              <p class="font-header">гости</p>
+              <select
+              name="guests"
+              class="basic-input medium-input input-border-light  font-strong input-card-number"
+            >
+              <option value="light" class="">3 гостя, 1 младенец</option>
+              <option value="dark"></option>
+              ...
+            </select>
+            <form class="div-arrow">
+              <div class="arrow-filter-guest btn-arrow div-arrow">
+                <img src="img/arrow-down.svg">
+        </div>
+        </form>
+            </div>
+            <!------>
+            <!----диапазон цены-->
+            
+            <div class="filter-range">
+              <div class="text-field-default">
+                <div class="text-field-default-name">
+                  <p class="font-header">Диапазон цены</p>
+                  <p class="font-light-header">5 000₽ - 10 000₽</p>
+                </div>
+                <div class="range-slider">
+                  <div class="range-slider-content">
+                      <div class="circle1 circle"></div>
+                      <div class="rectangle">
+                      </div>
+                      <div class="circle2 circle"></div>
+                </div>
+                <!--прописать код-->
+              </div>
+            </div>
+            <p class="font-medium font-small">Стоимость за сутки пребывания в номере</p>
+      </div>
+         <!--chekboks-->
+         <div class="text-field">
+          <div class="text-field-default-name">
+            <p class="font-header">
+              checkbox buttons
+            </p>
+          </div>
+
+          <div class="checkbox-ul input-field-medium">
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
+               <!----> 
+               <input type="checkbox" name="c1" id="c31" />
+                <label for="c31"><span></span>
+                </label>
+                <p class="checkbox-new-p">Можно курить</p>
+              </label>
+            </div>
+
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
+               <!----> 
+               <input type="checkbox" name="c1" id="c32" />
+                <label for="c32"><span></span>
+                </label>
+                <p class="checkbox-new-p">Можно с питомцами</p>
+              </label>
+            </div>
+
+            <div class=checkbox-variant2>
+              <label class="checkbox-new ">
+               <!----> 
+               <input type="checkbox" name="c1" id="c33" class="checkbox-new-input"/>
+                <label for="c33"><span></span>
+                </label>
+                <p class="checkbox-new-p">Можно пригласить гостей<br> (до 10 человек)</p>
+              </label>
+            </div>
+
+          </div>
+        </div>
+        <!---------доступность---->
+        <div class="avaliable">
+          <p class="font-header avaliable-header">Доступность</p>
+          <div class=checkbox-variant2>
+            <label class="checkbox-new ">
+             <!----> 
+             <input type="checkbox" name="c1" id="c34" class="checkbox-new-input"/>
+              <label for="c34"><span></span>
+              </label>
+              <p class="font-strong font-bold avaliable-checkbox-header" >Широкий коридор</p>
+            </label>
+            <p class="avaliable-checkbox-p font-medium">Ширина коридоров в номере<br> не менее 91 см.</p>
+          </div>
+
+          <div class=checkbox-variant2>
+            <label class="checkbox-new ">
+             <!----> 
+             <input type="checkbox" name="c1" id="c35" class="checkbox-new-input"/>
+              <label for="c35"><span></span>
+              </label>
+              <p class="font-strong font-bold avaliable-checkbox-header" >Помощник для инвалидов</p>
+            </label>
+            <p class="avaliable-checkbox-p font-medium">На 1 этаже вас встретит специалист<br>и проводит до номера.</p>
+          </div>
+        </div>
+        <!---удобства номера-->
+        <div class="comfortable">
+          <p class="font-header">Удобства номера</p>
+          <!---------------->
+          <select
+          name="guests"
+          class="basic-input medium-input input-border-light  font-strong input-card-number"
+        >
+          <option value="light" class="">2 спальни, 2 кровати...</option>
+          <option value="dark"></option>
+          ...
+        </select>
+        <form class="div-arrow">
+          <div class="arrow-filter-guest btn-arrow div-arrow">
+            <img src="img/arrow-down.svg">
+    </div>
+    </form>
+        </div>
+         
+        <!---дополнительные удобства-->
+        <div class="additional">
+          <p class="font-header filter-additional-header">Дополнительные удобства</p>
+          <form class="div-arrow">
+            <div class="arrow-filter-guest arrow-filter-additional btn-arrow div-arrow ">
+              <img src="img/arrow-down.svg">
+      </div>
+      </form>
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c51" class="checkbox-new-input"/>
+          <label for="c51"><span></span>
+          </label>
+          <p class="checkbox-new-p">Завтрак<br></p>
+        </label>
+      </div>
+      <!---------->
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c42" class="checkbox-new-input"/>
+          <label for="c42"><span></span>
+          </label>
+          <p class="checkbox-new-p">Письменный стол<br></p>
+        </label>
+      </div>
+      <!--------->
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c36" class="checkbox-new-input"/>
+          <label for="c36"><span></span>
+          </label>
+          <p class="checkbox-new-p">Стул для кормления<br></p>
+        </label>
+      </div>
+      <!------>
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c37" class="checkbox-new-input"/>
+          <label for="c37"><span></span>
+          </label>
+          <p class="checkbox-new-p">Кроватка<br></p>
+        </label>
+      </div>
+      <!------------------------->
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c38" class="checkbox-new-input"/>
+          <label for="c38"><span></span>
+          </label>
+          <p class="checkbox-new-p">Телевизор<br></p>
+        </label>
+      </div>
+      <!------------------->
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c39" class="checkbox-new-input"/>
+          <label for="c39"><span></span>
+          </label>
+          <p class="checkbox-new-p">Шампунь<br></p>
+        </label>
+      </div>
+      <!---------------------->
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c40" class="checkbox-new-input"/>
+          <label for="c40"><span></span>
+          </label>
+          <p class="checkbox-new-p">Телевизор<br></p>
+        </label>
+      </div>
+      <!------------------------>
+      <div class=checkbox-variant2>
+        <label class="checkbox-new ">
+         <!----> 
+         <input type="checkbox" name="c1" id="c41" class="checkbox-new-input"/>
+          <label for="c41"><span></span>
+          </label>
+          <p class="checkbox-new-p">Шампунь<br></p>
+        </label>
+      </div>
+        </div>
+            <!----------->
+          </div>
+          <div class="rooms">
+            <h1 class="rooms-header">Номера, которые мы для вас подобрали</h1>
+            <!--карточки первый ряд-->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room1-1.svg" alt="room">
+               <div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 888</span><span class="room-price-category">люкс</span></p>
+                 <p class="room-font-bold"><span>9 990₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>145</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room2.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 840</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>9 990₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>65</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room3.svg" alt="room">
+               <!--- <div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 980</span><span class="room-price-category">люкс</span></p>
+                  <p class="room-font-bold"><span>8 500₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>35</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!--карточки второй ряд --->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room4.svg" alt="room">
+               <!--<div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>-->
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 856</span><span class="room-price-category"></span></p>
+                 <p class="room-font-bold"><span>7 300₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>19</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room5.svg" alt="room">
+               <!---<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 740</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>6 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>44</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room6.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 982</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 800₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>56</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!---карточки третий ряд--->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room7.svg" alt="room">
+               <!--<div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>-->
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 678</span><span class="room-price-category"></span></p>
+                 <p class="room-font-bold"><span>5 500₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>45</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room8.svg" alt="room">
+               <!---<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 450</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 300₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>39</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room9.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 350</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>77</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!--карточки четвертый ряд---------->
+            <div class="rooms-row">
+              <!--карточка1-->
+             <div class="room-card">
+               <img src="img/room10.svg" alt="room">
+               <!--<div class="rooms-img-arrows">
+                   <img src="img/arrow-img-left.svg" alt="arrow-left">
+                   <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+               </div>-->
+               <div class="rooms-point">
+                 <div class="rooms-point-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+                 <div class="rooms-point-not-active point"></div>
+               </div>
+               <div class="room-price">
+                 <p class="room-price-content"><span class="room-price-number">№ 666</span><span class="room-price-category"></span></p>
+                 <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+             </div>
+             <hr class="room-line">
+             <div class="room-stars-feedback">
+                <div class="room-stars">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                  <img src="img/stars-active.svg" alt="stars-active">
+                </div>
+                <p class="room-font-bold room-feedback"><span>25</span> Отзывов</p>
+                </div>
+             </div>
+              <!--карточка2------->
+              <div class="room-card">
+                <img src="img/room11.svg" alt="room">
+               <!---<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 444</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>15</span> Отзывов</p>
+                 </div>
+              </div>
+              <!--карточка3-->
+              <div class="room-card">
+                <img src="img/room12.svg" alt="room">
+                <!--<div class="rooms-img-arrows">
+                    <img src="img/arrow-img-left.svg" alt="arrow-left">
+                    <img src="img/arrow-img-right.svg" alt="arrow-right" class="rooms-img-arrow-right">
+                </div>-->
+                <div class="rooms-point">
+                  <div class="rooms-point-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                  <div class="rooms-point-not-active point"></div>
+                </div>
+                <div class="room-price">
+                  <p class="room-price-content"><span class="room-price-number">№ 352</span><span class="room-price-category"></span></p>
+                  <p class="room-font-bold"><span>5 000₽ </span>в сутки</p>
+              </div>
+              <hr class="room-line">
+              <div class="room-stars-feedback">
+                 <div class="room-stars">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-active.svg" alt="stars-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                   <img src="img/stars-not-active.svg" alt="stars-not-active">
+                 </div>
+                 <p class="room-font-bold room-feedback"><span>55</span> Отзывов</p>
+                 </div>
+              </div>
+              <!---->
+            </div>
+            <!--страницы-->
+            <div class="pages">
+              <p class="calendar-number calendar-one-number block-violet number-active">1</p>
+              <p class="calendar-number calendar-one-number font-medium">2</p>
+              <p class="calendar-number calendar-one-number font-medium">3</p>
+              <p class="calendar-number calendar-one-number font-medium">...</p>
+              <p class="calendar-number calendar-one-number font-medium">15</p>
+              <p class="calendar-number calendar-one-number block-green number-active"><img src="img/arrow-right.svg"</p>
+            </div>
+            <!-------->
+            <p class="pages-text font-strong">1 – 12 из 100+ вариантов аренды</p>
+          </div>
+      </div>
+      </div>
+  <!--футер-->
+  
+      <section class="footer-content">
+     <div class="content">
+      <hr class="line_down">
+      <div class="header-footer">
+        <div class="header-footer-content">
+          <div class="header-footer-content-logo">
+            <div class="logo">
+             <img src="img/logo.svg">
+            </div>
+            <p class="header-content-p">
+              Бронирование номеров в лучшем <br> отеле 2019 года по версии <br>ассоциации «Отельные взгляды»
+            </p>
+          </div>
+          <div class="footer-menu">
+            <div class="line-navigation">
+              <p class="line-navigation-header">Навигация</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Служба поддержки</a></li>
+                <li><a href="#">Услуги</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">О нас</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">О сервисе</a></li>
+                <li><a href="#">Наша команда</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Инвесторы</a></li>
+              </ul>
+            </div>
+
+            <div class="line-navigation">
+              <p class="line-navigation-header">Служба поддержки</p>
+              <ul class="ul-line2_p">
+                <li><a href="#">Соглашения</a></li>
+                <li><a href="#">Сообщества</a></li>
+                <li><a href="#">Связь с нами</a></li>
+              </ul>
+            </div>
+            <!------------------>
+            <div class="line-navigation-last">
+              <p class="line-navigation-header">Подписка</p>
+              <p class="header-content-p">
+                Получайте специальные<br> предложения и новости сервиса
+              </p>
+              <form class="line_input">
+                <input type="text" name="fname" value="Email" />
+                <span class="input-group-btn">
+                    <div class="div-arrow btn-arrow arrow-medium-input">
+                      <img src="img/arrow-right-violet.svg">
+              </div>
+                </span>
+              </form>
+            </div>
+            <!--------------------->
+        </div>
+        </div>
+      </div>
+      <hr class="line_down" />
+      <div class="footer-content">
+        <div class="footer-content-p">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+        <div class="footer-content-icons">
+          <div class="icon">
+            <img src="img/twitter.svg">
+          </div>
+          <div class="icon">
+            <img src="img/facebook.svg">
+          </div>
+          <div class="icon">
+            <img src="img/instagram.svg">
+          </div>
+        </div>
+      </div>
+     </div>
+   </section>
+    </div>
+    <!--------------Room details-->
+
     <!--конец контейнера -->
       </div>
     
