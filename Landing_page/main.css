@@ -433,7 +433,7 @@ button,
   padding: 40px 30px;
   box-sizing: border-box;
   top: 2069px;
-  left: 383px;
+  left: 620px;
   border: 1px solid rgba(31, 32, 65, 0.25);
 }
 .calendar-header {
@@ -509,7 +509,7 @@ button,
 /*карточка с dropdown*/
 .dropdown {
   position: absolute;
-  margin-top: -650px;
+  margin-top: -646px;
   margin-left: 170px;
   background-color: #ffffff;
 }
@@ -893,4 +893,444 @@ button,
 }
 .chekbox-variant2 {
   margin-bottom: 10px;
+}
+/*Детали комнаты*/
+.room-details-img {
+  display: flex;
+  margin-bottom: 70px;
+}
+.room-details-picture-1 {
+  margin-left: -3px;
+}
+.room-details-picture-2 {
+  margin-top: -5px;
+  margin-left: -3px;
+}
+/*информация про комнату*/
+.information-room {
+  display: flex;
+}
+.data-section {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 23px;
+  margin-right: 93px;
+}
+
+.data-section-header {
+  margin-bottom: 10px;
+}
+.data-section-img {
+  margin-right: 10px;
+}
+.data-room-line {
+  width: 280px;
+  height: 1px;
+  border: none;
+  background: rgba(31, 32, 65, 0.1);
+  margin-left: -8px;
+}
+.data-diagram-room {
+  display: flex;
+  justify-content: flex-start;
+}
+/*диаграмма*/
+.chart-text {
+  /*font: 16px/1.4em "Montserrat", Arial, sans-serif;*/
+  fill: #bc9cff;
+  font-weight: bold;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+.chart-number {
+  font-size: 0.6em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+.chart-label {
+  font-size: 0.2em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(0.7em);
+}
+figure {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  figure {
+    flex-direction: row;
+  }
+}
+.figure-content,
+.figure-key {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-self: center;
+}
+.figure-content svg {
+  width: 120px;
+}
+.figure-key {
+  min-width: calc(8 / 12);
+}
+.figure-key [class*="shape-"] {
+  margin-right: 6px;
+}
+.figure-key-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.figure-key-list li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+.shape-circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.shape-fuschia {
+  background-color: #ffba9c;
+}
+.shape-lemon-lime {
+  background-color: #b1c94e;
+}
+.shape-blue {
+  background-color: #377bbc;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+/*бронирование(2 карточка)*/
+.reservation-content {
+  height: 500px;
+}
+.room-price-content {
+  align-items: baseline;
+}
+.reservation-content-prise {
+  display: flex;
+  justify-content: space-between;
+}
+.reservation-information {
+  margin-bottom: 30px;
+}
+.reservation-information-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.reservation-text-icon {
+  margin-left: -46px;
+}
+.reservation-text-icon-2 {
+  margin-top: -15px;
+}
+.reservation-information-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+/*текст для результата*/
+.information-result-text {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1f2041;
+  margin-right: 5px;
+}
+.button-arrow-right {
+  margin-left: 130px;
+}
+/*отзывы*/
+.data-room-feedback-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.data-room-feedback {
+  margin-top: 30px;
+}
+.data-room-feedback-icons {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+/*кнопка like*/
+.button-like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  width: 39.72px;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 20px;
+  border: 1px solid #bc9cff;
+}
+.button-like-p {
+  font-size: 10px;
+  color: #bc9cff;
+  margin-left: 5px;
+}
+/**/
+.data-room-feedback-icon-contect {
+  display: flex;
+  margin-top: 23px;
+}
+.data-room-text {
+  margin-top: 34px;
+}
+.data-room-text-p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*правила-отмена*/
+.rools-fobid {
+  margin-top: 30px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+/*bullet-list*/
+.bullet-list-line {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.bullet-list-line-circle {
+  width: 10.43px;
+  height: 10px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 22px;
+  margin-right: 10.43px;
+}
+
+.bullet-list-rools-header {
+  margin-bottom: 30px;
+}
+/*карточка с регистрацией*/
+.card4 {
+  height: 646px;
+}
+.registration-input {
+  margin-top: 20px;
+}
+.button-registration {
+  margin-top: 20px;
+}
+.registration-account {
+  margin-top: 30px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.input-name,
+.input-sername {
+  margin-bottom: 10px;
+}
+/*********************************/
+.checkbox-radio-container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+}
+.radio-but-container {
+  padding-left: 35px;
+  margin-right: 1px;
+}
+.radio-but-container:hover {
+  color: rgba(31, 32, 65, 0.75);
+}
+.checkbox-input,
+.radio-but-input {
+  display: none;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkbox-radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+}
+.checkbox-checkmark {
+  border-radius: 4px;
+}
+.radio-but-checkmark {
+  border-radius: 10px;
+}
+.radio-but {
+  display: flex;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+/* Hide the browser's default radio button */
+.radio-but-container > .radio-but-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+
+/* When the radio button is checked, add a blue background */
+.radio-but-container > .radio-but-input:checked ~ .radio-but-checkmark {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-but-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-but-container > .radio-but-input:checked ~ .radio-but-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-but-container .radio-but-checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 10px;
+}
+.first-radiobutton {
+  margin-right: 20px;
+}
+/*toggle*/
+.toogle-content {
+  display: flex;
+  margin-top: 5px;
+}
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  /* Primary Color */
+
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  margin: 3px 4px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .toggle-slider {
+  background-color: white;
+  border: 1px solid #bc9cff;
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.toggle-slider.round {
+  border-radius: 34px;
+}
+
+.toggle-slider.round:before {
+  border-radius: 50%;
+}
+input:checked + .switch::before {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
+/**отступ для большой кнопки в регистрации*/
+.reservation-big-button {
+  margin-top: 32px;
+}
+/****************/
+.card4 {
+  position: absolute;
+  margin-top: -714px;
+  margin-left: 474px;
+}
+.login-header {
+  margin-bottom: 20px;
+}
+.card5 {
+  position: absolute;
+  margin-top: -574px;
+  margin-left: 474px;
+}
+/***********************/
+
+.sections-diagram {
+  display: flex;
+}
+.diagram > .information-result-text {
+  margin-top: -25px;
+}
+.figure-key-list > li {
+  display: flex;
+  align-items: baseline;
+}
+.chart-number {
+  color: #bc9cff;
 }
